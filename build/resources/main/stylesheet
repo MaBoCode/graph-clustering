@@ -1,0 +1,29 @@
+node {
+	size: 30px;
+	fill-mode: none;
+	stroke-mode: plain;
+	stroke-color: yellow;
+	text-background-mode: plain;
+	text-style: bold;
+	text-alignment: under;
+	text-size: 25;
+	text-padding: 3px, 2px;
+	text-offset: 20px, 0px;
+	fill-color: "#8A8B8B";
+}
+
+node.selected {
+	fill-color: blue;
+	size: 40px;
+}
+
+node:clicked {
+	fill-color: "#A5242B";
+}
+
+edge {
+	arrow-size: 20px, 10px;
+	text-size: 20;
+	fill-color: "#3E3E3Dd";
+	text-alignment: under;
+}
